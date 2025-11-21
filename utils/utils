@@ -1,0 +1,26 @@
+
+---
+
+## **3. utils/file_tools.py**
+```python
+def read_file(path):
+    """Read text from a file."""
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return f.read()
+    except FileNotFoundError:
+        return None
+
+
+def write_file(path, text):
+    """Write text to a file."""
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(text)
+
+
+def line_count(path):
+    """Count lines in a file."""
+    content = read_file(path)
+    if content is None:
+        return 0
+    return len(content.splitlines())

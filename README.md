@@ -12,3 +12,6 @@ A small collection of useful Python utility functions for text processing and fi
 ## How to run
 ```bash
 python main.py
+
+- Public repo: https://github.com/MUShakibbb/simple-python-tools
+

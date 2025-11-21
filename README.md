@@ -15,3 +15,5 @@ python main.py
 
 - Public repo: https://github.com/MUShakibbb/simple-python-tools
 
+## Updates
+- Added utility modules and main script (initial version)

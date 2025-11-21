@@ -1,3 +1,5 @@
+![Tests](https://github.com/MUShakibbb/simple-python-tools/actions/workflows/python-tests.yml/badge.svg)
+
 # simple-python-tools
 # Simple Python Tools
 
